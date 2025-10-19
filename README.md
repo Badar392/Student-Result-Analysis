@@ -40,7 +40,7 @@ The project adheres to a standard data analytics workflow, emphasizing structure
 
 | Component                   | Technology                      | Purpose                                |
 | :-------------------------- | :------------------------------ | :------------------------------------- |
-| **Development Environment** | Google Colab (Jupyter Notebook) | Interactive, cloud-based analysis      |
+| **Development Environment** | Google Colab                    | Interactive, cloud-based analysis      |
 | **Programming Language**    | Python                          | Core data analytics language           |
 | **Data Libraries**          | Pandas, NumPy                   | Data manipulation and computation      |
 | **Visualization Tools**     | Matplotlib, Seaborn             | Plotting and statistical visualization |
@@ -106,7 +106,7 @@ uploaded = files.upload()
 df = pd.read_csv('/data.csv')
 ---
 
-## Output Highlights
+### Output Highlights
 
 * Summary statistics tables for numerical features.
 * Boxplots and histograms visualizing score distributions.
@@ -125,11 +125,11 @@ Potential next steps include:
 
 ---
 
-##  Author
+## Author
 
 **Project Author:** *[Muhammad Badar Maaz]*
 **Role:** Data Analyst 
 
 ---
 
-Would you like me to format this version for **GitHub Markdown styling** (e.g., badges, table of contents, collapsible code sections)? It would make it look even more professional for your repository page.
+
