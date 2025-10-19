@@ -1,53 +1,51 @@
-## Student Performance Analysis: Exploratory Data Analysis (EDA)
+# 📊 Student Performance Analysis: Exploratory Data Analysis (EDA)
 
-## Project Overview
+## 🧭 Project Overview
 
-This project presents a complete **Exploratory Data Analysis (EDA)** workflow applied to a student performance dataset.
+This project presents a complete **Exploratory Data Analysis (EDA)** workflow applied to a student performance dataset.  
 The main objective is to investigate how various demographic and socio-economic factors influence academic outcomes — specifically **math**, **reading**, and **writing** scores.
 
-The analysis demonstrates essential **data science techniques** including data preparation, descriptive analytics, and visual storytelling — making it an excellent **portfolio project** for aspiring data analysts or data scientists.
+The analysis demonstrates essential **data science techniques**, including data preparation, descriptive analytics, and visual storytelling — making it an excellent **portfolio project** for aspiring data analysts or data scientists.
 
+---
 
-
-##  Key Features
+## ✨ Key Features
 
 The project adheres to a standard data analytics workflow, emphasizing structured exploration and clear insights:
 
-* **Data Acquisition & Quality Assessment:**
+* **Data Acquisition & Quality Assessment:**  
   Initial inspection for data integrity, structure, and types.
 
-* **Descriptive Statistics:**
+* **Descriptive Statistics:**  
   Computation of central tendencies, spread, and score distributions.
 
-* **Data Cleaning & Preparation:**
+* **Data Cleaning & Preparation:**  
   Handling of missing data, duplicate entries, and categorical normalization.
 
-* **Comparative Analysis:**
+* **Comparative Analysis:**  
   Evaluation of how academic scores vary across categorical dimensions:
-
   * **Gender** – Score distribution comparison between male and female students.
   * **Parental Education** – Influence of parents’ education level on student outcomes.
 
-
-* **Data Visualization:**
+* **Data Visualization:**  
   Effective visual communication using:
-
   * **Boxplots:** To highlight score variance and median differences.
   * **Pie Charts:** To illustrate student distribution by ethnic groups.
 
+---
 
 ## 💻 Technical Stack
 
-| Component                   | Technology                      | Purpose                                |
-| :-------------------------- | :------------------------------ | :------------------------------------- |
-| **Development Environment** | Google Colab                    | Interactive, cloud-based analysis      |
-| **Programming Language**    | Python                          | Core data analytics language           |
-| **Data Libraries**          | Pandas, NumPy                   | Data manipulation and computation      |
-| **Visualization Tools**     | Matplotlib, Seaborn             | Plotting and statistical visualization |
+| Component | Technology | Purpose |
+| :-- | :-- | :-- |
+| **Development Environment** | Google Colab | Interactive, cloud-based analysis |
+| **Programming Language** | Python | Core data analytics language |
+| **Data Libraries** | Pandas, NumPy | Data manipulation and computation |
+| **Visualization Tools** | Matplotlib, Seaborn | Plotting and statistical visualization |
 
+---
 
-
-##  Dataset
+## 💾 Dataset
 
 **Source:** Public dataset from [Kaggle: Student Exam Scores Extended Dataset](https://www.kaggle.com/)
 
@@ -62,9 +60,9 @@ The project adheres to a standard data analytics workflow, emphasizing structure
 * `reading score`
 * `writing score`
 
+---
 
-
-## Setup & Execution (Google Colab)
+## ⚙️ Setup & Execution (Google Colab)
 
 Designed for **Google Colab**, the setup is simple and requires no local configuration.
 
@@ -75,14 +73,14 @@ Designed for **Google Colab**, the setup is simple and requires no local configu
 
 ### 2️⃣ Install Dependencies
 
-Google Colab comes preloaded with the required libraries.
+Google Colab comes preloaded with the required libraries.  
 However, you can manually install them if needed:
 
 ```python
 !pip install pandas numpy matplotlib seaborn
-```
+````
 
-###  Import Libraries
+### 3️⃣ Import Libraries
 
 At the beginning of your notebook:
 
@@ -92,10 +90,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-sns.set(style="whitegrid", palette="pastel")
 ```
 
-###  Load the Dataset
+### 4️⃣ Load the Dataset
 
 You can upload your dataset manually to Colab or access it from Google Drive:
 
@@ -104,9 +101,10 @@ from google.colab import files
 uploaded = files.upload()
 
 df = pd.read_csv('/data.csv')
+
 ---
 
-### Output Highlights
+### 📈 Output Highlights
 
 * Summary statistics tables for numerical features.
 * Boxplots and histograms visualizing score distributions.
@@ -115,7 +113,7 @@ df = pd.read_csv('/data.csv')
 
 ---
 
-##  Future Enhancements
+### 🚀 Future Enhancements
 
 Potential next steps include:
 
@@ -125,10 +123,11 @@ Potential next steps include:
 
 ---
 
-## Author
+## 👤 Author
 
-**Project Author:** *[Muhammad Badar Maaz]*
-**Role:** Data Analyst 
+**Project Author:** *Muhammad Badar Maaz*
+
+**Role:** Data Analyst
 
 ---
 
