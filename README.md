@@ -2,7 +2,7 @@
 
 ## 🧭 Project Overview
 
-This project presents a complete **Exploratory Data Analysis (EDA)** workflow applied to a student performance dataset.  
+This project presents a complete **Exploratory Data Analysis (EDA)** workflow applied to a student performance dataset.
 The main objective is to investigate how various demographic and socio-economic factors influence academic outcomes — specifically **math**, **reading**, and **writing** scores.
 
 The analysis demonstrates essential **data science techniques**, including data preparation, descriptive analytics, and visual storytelling — making it an excellent **portfolio project** for aspiring data analysts or data scientists.
@@ -13,24 +13,24 @@ The analysis demonstrates essential **data science techniques**, including data 
 
 The project adheres to a standard data analytics workflow, emphasizing structured exploration and clear insights:
 
-* **Data Acquisition & Quality Assessment:**  
-  Initial inspection for data integrity, structure, and types.
+* **Data Acquisition & Quality Assessment:**
+    Initial inspection for data integrity, structure, and types.
 
-* **Descriptive Statistics:**  
-  Computation of central tendencies, spread, and score distributions.
+* **Descriptive Statistics:**
+    Computation of central tendencies, spread, and score distributions.
 
-* **Data Cleaning & Preparation:**  
-  Handling of missing data, duplicate entries, and categorical normalization.
+* **Data Cleaning & Preparation:**
+    Handling of missing data, duplicate entries, and categorical normalization.
 
-* **Comparative Analysis:**  
-  Evaluation of how academic scores vary across categorical dimensions:
-  * **Gender** – Score distribution comparison between male and female students.
-  * **Parental Education** – Influence of parents’ education level on student outcomes.
+* **Comparative Analysis:**
+    Evaluation of how academic scores vary across categorical dimensions:
+    * **Gender** – Score distribution comparison between male and female students.
+    * **Parental Education** – Influence of parents’ education level on student outcomes.
 
-* **Data Visualization:**  
-  Effective visual communication using:
-  * **Boxplots:** To highlight score variance and median differences.
-  * **Pie Charts:** To illustrate student distribution by ethnic groups.
+* **Data Visualization:**
+    Effective visual communication using:
+    * **Boxplots:** To highlight score variance and median differences.
+    * **Pie Charts:** To illustrate student distribution by ethnic groups.
 
 ---
 
@@ -73,7 +73,7 @@ Designed for **Google Colab**, the setup is simple and requires no local configu
 
 ### 2️⃣ Install Dependencies
 
-Google Colab comes preloaded with the required libraries.  
+Google Colab comes preloaded with the required libraries.
 However, you can manually install them if needed:
 
 ```python
@@ -101,34 +101,44 @@ from google.colab import files
 uploaded = files.upload()
 
 df = pd.read_csv('/data.csv')
+```
 
----
+-----
 
-### 📈 Output Highlights
+## 📈 Output Highlights
 
-* Summary statistics tables for numerical features.
-* Boxplots and histograms visualizing score distributions.
-* Grouped mean comparisons by demographic factors.
-* Correlation insights between score categories.
+### 📊 Summary Statistics
 
----
+Descriptive summary tables for numerical features — including measures of central tendency and dispersion.
 
-### 🚀 Future Enhancements
+### 📉 Score Distributions
+
+Boxplots and histograms visualizing score variability across demographic and categorical dimensions.
+
+### 📚 Grouped Mean Comparisons
+
+Aggregated mean comparisons by demographic factors such as gender, parental education, and lunch type.
+
+### 🔗 Correlation Insights
+
+Correlation heatmaps and pairwise plots illustrating relationships between different academic score categories.
+
+-----
+
+## 🚀 Future Enhancements
 
 Potential next steps include:
 
-* Predictive modeling using regression or classification techniques.
-* Feature importance analysis via tree-based models.
-* Integration of socio-behavioral factors (e.g., study hours, extracurricular participation).
+  * **Predictive modeling** using regression or classification techniques.
+  * **Feature importance analysis** via tree-based models.
+  * **Integration of socio-behavioral factors** (e.g., study hours, extracurricular participation).
 
----
+-----
 
 ## 👤 Author
 
-**Project Author:** *Muhammad Badar Maaz*
+**Project Author:** **Muhammad Badar Maaz**
 
 **Role:** Data Analyst
 
----
-
-
+```
